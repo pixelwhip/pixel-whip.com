@@ -168,7 +168,8 @@ blockquote {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003173}}
 .site-footer > p {
-  font-size: 14px;
+  font-size: 0.875em;
+  line-height: 1.5em;
   letter-spacing: .03em;
   text-indent: 0;
 }
