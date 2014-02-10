@@ -171,7 +171,7 @@ blockquote {
   border-top: 1px solid #ccc;
 
   > p {
-    font-size: 14px;
+    @include adjust-font-size-to(14px, 3.5);
     letter-spacing: .03em;
     text-indent: 0;
   }
