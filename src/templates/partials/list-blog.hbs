@@ -1,0 +1,15 @@
+---
+component: list-blog
+---
+{{#each tags}}
+  {{#is tag "blog"}}
+  <ul class="list--ruled">
+    {{#each pages}}
+    <li>
+      <h2 class="article-title"><a href="{{basename}}.html" >{{data.title}}</a></h2>
+      <p class="article-summary">{{data.lead}}</p>
+    </li>
+    {{/each}}
+  </ul>
+  {{/is}}
+{{/each}}

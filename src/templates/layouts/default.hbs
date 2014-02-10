@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{title}} | {{site.title}}</title>
+    <!-- build:css {{assets}}/styles/app.css -->
+    <link rel="stylesheet" href="{{assets}}/styles/monokai_sublime.css">
+    <link rel="stylesheet" href="{{assets}}/styles/main.css">
+    <!-- endbuild -->
+    <script type="text/javascript" src="//use.typekit.net/vfb4efj.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <!-- Heading -->
+    <header class="l--constrained">
+      <h1 class="site-title"><a href="index.html">{{ site.title }}</a></h1>
+    </header>
+
+    <!-- Content -->
+    <div class="l--constrained">
+      {{> body }}
+    </div>
+
+    <footer class="l--constrained site-footer">
+      <p><a href="https://twitter.com/pixel_whip">John Ferris</a> lives and plays in Colorado Springs, CO. He is a front-end developer at <a href="http://atendesigngroup.com">Aten Design Group.</a></p>
+    </footer>
+
+    <!-- build:js {{assets}}/scripts/app.js -->
+    <script src="{{assets}}/scripts/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!-- endbuild -->
+  </body>
+</html>
