@@ -103,6 +103,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'compass',
+        'copy:dist',
         'copy:styles',
         'copy:scripts',
         'imagemin',
