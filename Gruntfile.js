@@ -150,4 +150,9 @@ module.exports = function (grunt) {
     'jshint',
     'build'
   ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'gh-pages'
+  ]);
 };

@@ -9,7 +9,8 @@ module.exports = {
         '*.{ico,png,txt}',
         '.htaccess',
         'images/{,*/}*.{webp,gif,jpg,png}',
-        'styles/fonts/{,*/}*.*'
+        'styles/fonts/{,*/}*.*',
+        'CNAME'
       ]
     }]
   },
