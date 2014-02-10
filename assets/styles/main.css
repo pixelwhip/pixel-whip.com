@@ -168,54 +168,54 @@ blockquote {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003173}}
 .site-footer > p {
-  font-size: 0.875em;
-  line-height: 1.5em;
+  font-size: 14px;
+  line-height: 21px;
   letter-spacing: .03em;
   text-indent: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003185}}
 .list--ruled {
   padding-left: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003189}}
 .list--ruled > li {
   display: block;
   list-style: none;
   border-top: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003194}}
 .list--ruled > li:first-child {
   border-top: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003204}}
 img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003209}}
 figure {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 33.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003215}}
   body {
     font-size: 1.125em;
     line-height: 1.5em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003221}}
   h1 {
     font-size: 2.77778em;
     line-height: 1.08em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pixelwhip\/Sites\/pixel-whip\.com\/src\/styles\/main\.scss}line{font-family:\00003225}}
   .post-lead {
     font-size: 1.33333em;
     line-height: 1.5em;
